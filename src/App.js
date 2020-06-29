@@ -16,13 +16,6 @@ class App extends Component {
     this.setState({
       counter: value
     });
-
-    // if(!value){
-    //   this.setState({
-    //     counter: 0
-    //   });
-    // }
-
   }
 
 
@@ -58,7 +51,7 @@ class App extends Component {
             {multiplicationTables.map((multiplicationTable, index) => (
               <tr key={index}>
                 <td style={tableStyle}>
-                  {multiplicationTable} * {counter ? counter : 0} = {multiplicationTable * counter}
+                  {multiplicationTable} x {counter ? counter : 0} = {multiplicationTable * counter}
                 </td>
               </tr>
             ))}
