@@ -2,24 +2,30 @@
   text-align: center;
   .multiplication-body{
     position: relative;
-   
-      .MuiFormControl-root{
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
+    .MuiFormControl-root{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
 
-      .MuiBottomNavigation-root{
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-      }
-      .multiplication-box{
-        margin-bottom: 50px;
-      }
+    .MuiBottomNavigation-root{
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }  
   }
 }
 
 .MuiContainer-root {
   padding: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .multiplication-app {
+    .multiplication-body{
+      .multiplication-box{
+        margin-bottom: 50px;
+      }
+    }
+  }
 }
