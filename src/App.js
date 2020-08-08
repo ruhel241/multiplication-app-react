@@ -58,7 +58,7 @@ class App extends Component {
                           </Typography>
                         </Toolbar>
                       </AppBar>
-                      <Typography component="div">
+                      <Typography component="div" className="multiplication-box">
                           <TextField
                             id="outlined-number"
                             label="Number"
