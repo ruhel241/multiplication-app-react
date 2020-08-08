@@ -1,11 +1,22 @@
 .multiplication-app {
   text-align: center;
-  margin-top: 80px;
+  .multiplication-body{
+    position: relative;
+   
+      .MuiFormControl-root{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+    .MuiBottomNavigation-root{
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
 }
 
-
-@media only screen and (max-width: 768px) {
-  .multiplication-app{
-    margin-top: 0px;
-  }
+.MuiContainer-root {
+  padding: 0 !important;
 }
